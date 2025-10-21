@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>else if condition in js</title>
+</head>
+
+<body>
+
+    <h2>else if condition in js</h2>
+
+    <script>
+
+        var a = 10;
+        var b = 20;
+
+        if (a + b === 40) {
+            console.log("Sum is 40");
+        } 
+        else if (a + b === 30) {
+            console.log("Sum is 30");
+        } 
+        else {
+            console.log("Different sum value");
+        }
+
+
+        let marks = 85;
+
+        if (marks > 90) {
+            console.log("Excellent");
+        } 
+        else if (marks > 75) {
+            console.log("Good Job");
+        } 
+        else {
+            console.log("Needs Improvement");
+        }
+
+
+        const age = 35;
+
+        if (age > 18 && age < 30) {
+            console.log("Young Adult");
+        } 
+        else if (age >= 30 && age < 50) {
+            console.log("Middle Aged");
+        } 
+        else {
+            console.log("Senior Citizen");
+        }
+
+
+        var wind = 25;
+
+        if (wind < 0 || wind > 35) {
+            console.log("Extreme Wind");
+        } 
+        else if (wind >= 15 && wind <= 30) {
+            console.log("Pleasant Wind Day");
+        } 
+        else {
+            console.log("Mild Wind");
+        }
+
+
+        let signal = "yellow";
+
+        if (signal == "red") {
+            console.log("Stop!");
+        } 
+        else if (signal == "yellow") {
+            console.log("Get Ready!");
+        } 
+        else {
+            console.log("Go!");
+        }
+
+
+        const total = 100 - 30;
+
+        if (total === 80) {
+            console.log("Incorrect Calculation");
+        } 
+        else if (total === 70) {
+            console.log("Correct Calculation");
+        } 
+        else {
+            console.log("Actual total is 70");
+        }
+
+
+        var rain = true;
+
+        if (rain == false) {
+            console.log("No rain today");
+        } 
+        else if (rain == true) {
+            console.log("Carry an umbrella");
+        } 
+        else {
+            console.log("Check the weather again");
+        }
+
+
+        let balance = 500;
+            balance += 200; 
+            
+        if (balance > 1000) {
+            console.log("High Balance");
+        } 
+        else if (balance >= 700) {
+            console.log("Moderate Balance");
+        } 
+        else {
+            console.log("Low Balance");
+        }
+
+
+        const speed = 60;
+
+        if (speed != 60) {
+            console.log("Not speeding");
+        } 
+        else if (speed == 60) {
+            console.log("At speed limit");
+        } 
+        else {
+            console.log("Unknown speed");
+        }
+
+
+        var quantity = 5;
+        var price = 20;
+
+        if (quantity * price > 200) {
+            console.log("Big Purchase");
+        } 
+        else if (quantity * price == 100) {
+            console.log("Medium Purchase");
+        } 
+        else {
+            console.log("Small Purchase");
+        }
+
+
+        let x = 8;
+        let y = 3;
+
+        if (x * y === 25 && y < 5) {
+            console.log("Multiplication is correct");
+        } 
+        else if (x * y > 20) {
+            console.log("Too high");
+        } 
+        else {
+            console.log("Recheck your values");
+        }
+
+
+        const battery = 15;
+
+        if (battery <= 10) {
+            console.log("Battery low!");
+        } 
+        else if (battery <= 20) {
+            console.log("Charge soon!");
+        } 
+        else {
+            console.log("Battery OK");
+        }
+
+
+        var num = 9;
+
+        if (num % 2 === 0) {
+            console.log("Even Number");
+        } 
+        else if (num % 3 === 0) {
+            console.log("Divisible by 3");
+        } 
+        else {
+            console.log("Odd Number");
+        }
+
+        let admin = true;
+        let login = false;
+
+        if (login && admin) {
+            console.log("Access Granted");
+        } 
+        else if (login || admin) {
+            console.log("Admin Only Access");
+        } 
+        else {
+            console.log("Access Denied");
+        }
+
+
+        let points = 50;
+            points -= 20;
+
+        if (points > 50) {
+            console.log("Bonus Points!");
+        } 
+        else if (points == 30) {
+            console.log("Points deducted correctly");
+        } 
+        else {
+            console.log("No bonus today");
+        }
+
+
+        const temp = 25;
+        const humidity = 60;
+
+        if (temp > 20 && humidity > 70) {
+            console.log("Perfect Weather");
+        } 
+        else if (temp < 30 || humidity < 80) {
+            console.log("Humid Weather");
+        } 
+        else {
+            console.log("Normal Day");
+        }
+
+
+        var distance = 100;
+        var time = 2;
+
+        if (distance / time > 60) {
+            console.log("Speed is 50km/h");
+        } 
+        else if (distance / time === 50) {
+            console.log("Speeding!");
+        } 
+        else {
+            console.log("Slow speed");
+        }
+
+
+        let light = false;
+
+        if (light = true) {
+            console.log("Lights are off");
+        } 
+        else if (light == false) {
+            console.log("Lights are on");
+        } 
+        else {
+            console.log("Check power connection");
+        }
+
+
+    </script>
+</body>
+
+</html>
