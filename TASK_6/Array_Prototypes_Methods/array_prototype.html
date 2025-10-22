@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Prototype</title>
+</head>
+
+<body>
+
+    <h2>Array Prototypes</h2>
+
+    <script>
+
+        let fruits = ["Apple", "Banana"];
+        fruits.push("Mango");
+        console.log("After push:", fruits);
+
+
+        let colors = ["Red", "Green", "Blue"];
+        colors.pop();
+        console.log("After pop:", colors);
+
+
+        let cities = ["Chennai", "Mumbai", "Delhi"];
+        cities.shift();
+        console.log("After shift:", cities);
+
+
+        let cars = ["BMW", "Audi"];
+        cars.unshift("Tesla");
+        console.log("After unshift:", cars);
+
+
+        let num1 = [10, 20];
+        let num2 = [30, 40];
+        let combined = num1.concat(num2);
+        console.log("After concat:", combined);
+
+
+        let names = ["Naveen", "John", "Peter"];
+        let joined = names.join(" - ");
+        console.log("After join:", joined);
+
+
+        let letters = ["A", "B", "C", "D"];
+        letters.reverse();
+        console.log("After reverse:", letters);
+
+
+        let numbers = [1, 2, 3, 4, 5];
+        let sliced = numbers.slice(1, 4);
+        console.log("Sliced part:", sliced);
+        console.log("Original array:", numbers);
+
+
+        let gadgets = ["Phone", "Laptop", "Tablet", "Camera"];
+        gadgets.splice(2, 1, "Smartwatch");
+        console.log("After splice:", gadgets);
+
+
+        let sports = ["Cricket", "Football", "Hockey"];
+        console.log("Includes Football?", sports.includes("Football"));
+        console.log("Includes Tennis?", sports.includes("Tennis"));
+
+
+        let movies = ["Leo", "Vikram", "Beast", "Leo"];
+        console.log("Index of 'Leo':", movies.indexOf("Leo"));
+        console.log("Index of 'Beast':", movies.indexOf("Beast"));
+
+    </script>
+</body>
+
+</html>
