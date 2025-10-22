@@ -1,0 +1,81 @@
+function addition(a, b) {
+    console.log("Addition Result:", a + b);
+}
+addition(30, 23);
+
+
+
+function subtraction(x, y) {
+    console.log("Subtraction Result:", x - y);
+}
+subtraction(45, 23);
+
+
+
+function displayBookDetails(title, author) {
+    console.log("Book Title:", title, "| Author:", author);
+}
+displayBookDetails("Lord of the Rings", "J.R.R. Tolkien");
+
+
+
+function multiplyNumbers(m, n) {
+    console.log("Multiplication of", m, "and", n, "is:", m * n);
+}
+multiplyNumbers(20, 3);
+
+
+
+function divideNumbers(num1, num2) {
+    console.log("Division of", num1, "by", num2, "is:", num1 / num2);
+}
+divideNumbers(10, 5);
+
+
+
+function userSignIn(message) {
+    console.log(message);
+}
+userSignIn("User signed in successfully");
+
+
+
+function userLogin(info) {
+    console.log(info);
+}
+userLogin("User logged in successfully");
+
+
+
+function sendMessage(msg) {
+    console.log(msg);
+}
+sendMessage("Hello! Hope you're doing great today.");
+
+
+
+function startCourse(courseName) {
+    console.log("Enrolled in:", courseName);
+}
+startCourse("Full Stack Web Development Course");
+
+
+
+function submitResponse(response) {
+    console.log(response);
+}
+submitResponse("Your response has been submitted successfully.");
+
+
+
+function addToWishlist(status) {
+    console.log(status);
+}
+addToWishlist("Product has been added to your wishlist.");
+
+
+
+function generateOrderID(orderInfo) {
+    console.log(orderInfo);
+}
+generateOrderID("Order ID generated and saved successfully.");

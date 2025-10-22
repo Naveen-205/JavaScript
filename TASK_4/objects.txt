@@ -1,0 +1,155 @@
+let obj = {
+    gadget: "smartwatch",
+    quantity: 10,
+    price: 4999,
+    is_available: true
+}
+console.log(obj.gadget)
+console.log(obj.quantity)
+console.log(obj.price)
+console.log(obj.is_available)
+
+let frontend = {
+    language: "typescript",
+    invented_year: 2012,
+    framework: "angular",
+    css_framework: "materialize"
+}
+console.log(frontend.language)
+console.log(frontend.invented_year)
+console.log(frontend.framework)
+console.log(frontend.css_framework)
+
+let backend = {
+    language: "python",
+    invented_year: 1991,
+    framework: "django",
+    css_framework: "bulma"
+}
+console.log(backend.language)
+console.log(backend.invented_year)
+console.log(backend.framework)
+console.log(backend.css_framework)
+
+let restaurant = {
+    name: "Ocean Breeze",
+    opened_year: 2018,
+    cuisine: "Seafood",
+    rating: 4.7
+}
+console.log(restaurant.name)
+console.log(restaurant.opened_year)
+console.log(restaurant.cuisine)
+console.log(restaurant.rating)
+
+let movie = {
+    title: "Interstellar",
+    released_year: 2014,
+    genre: "Adventure",
+    director: "Christopher Nolan"
+}
+console.log(movie.title)
+console.log(movie.released_year)
+console.log(movie.genre)
+console.log(movie.director)
+
+let book = {
+    title: "The Alchemist",
+    published_year: 1988,
+    author: "Paulo Coelho",
+    genre: "Philosophy"
+}
+console.log(book.title)
+console.log(book.published_year)
+console.log(book.author)
+console.log(book.genre)
+
+let car = {
+    brand: "BMW",
+    model: "X5",
+    specs: {
+        engine: "3.0L Turbo",
+        fuel_type: "Diesel",
+        automatic: true
+    }
+}
+console.log(car.brand)
+console.log(car.model)
+console.log(car.specs.engine)
+console.log(car.specs.fuel_type)
+console.log(car.specs.automatic)
+
+let cafe = {
+    name: "Brew House",
+    location: "Bangalore",
+    menu: {
+        beverages: ["Latte", "Cappuccino"],
+        snacks: ["Sandwich", "Burger"],
+        desserts: ["Brownie", "Cheesecake"]
+    }
+}
+console.log(cafe.name)
+console.log(cafe.location)
+console.log(cafe.menu.beverages)
+console.log(cafe.menu.snacks)
+console.log(cafe.menu.desserts)
+
+let series = {
+    title: "Stranger Things",
+    released_year: 2016,
+    cast: {
+        lead_actor: "Finn Wolfhard",
+        supporting_actor: "Gaten Matarazzo",
+        actress: "Millie Bobby Brown"
+    }
+}
+console.log(series.title)
+console.log(series.released_year)
+console.log(series.cast.lead_actor)
+console.log(series.cast.supporting_actor)
+console.log(series.cast.actress)
+
+let college = {
+    name: "SLA Institute",
+    established: 2012,
+    principal: {
+        name: "Dr. Bala Mukund",
+        age: 25,
+        experience: "4 years"
+    }
+}
+console.log(college.name)
+console.log(college.established)
+console.log(college.principal.name)
+console.log(college.principal.age)
+console.log(college.principal.experience)
+
+let novel = {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    publication: {
+        year: 1960,
+        publisher: "J.B. Lippincott & Co.",
+        edition: "Second"
+    }
+}
+console.log(novel.title)
+console.log(novel.author)
+console.log(novel.publication.year)
+console.log(novel.publication.publisher)
+console.log(novel.publication.edition)
+
+let app = {
+    name: "Instagram",
+    platform: "iOS",
+    features: {
+        photo_share: true,
+        story_mode: true,
+        reels: true
+    }
+}
+console.log(app.name)
+console.log(app.platform)
+console.log(app.features.photo_share)
+console.log(app.features.story_mode)
+console.log(app.features.reels)

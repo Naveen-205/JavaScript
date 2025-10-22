@@ -1,0 +1,81 @@
+const add_to_wishlist = function(message){
+    console.log(message);
+}
+add_to_wishlist("Product has been added to wishlist successfully");
+
+
+
+const place_preorder = function(info){
+    console.log(info);
+}
+place_preorder("Your preorder has been placed successfully");
+
+
+
+const open_main_door = function(msg){
+    console.log(msg);
+}
+open_main_door("The main door is now open");
+
+
+
+const validate_text_length = function(note){
+    console.log(note);
+}
+validate_text_length("Text should contain at least 10 characters");
+
+
+
+const check_email_format = function(alert){
+    console.log(alert);
+}
+check_email_format("Email must include an '@' symbol");
+
+
+
+const start_fan = function(status){
+    console.log(status);
+}
+start_fan("Fan is running at 4-speed mode");
+
+
+
+const calculate_square_root = function(result){
+    console.log(result);
+}
+calculate_square_root("Square root calculated successfully");
+
+
+
+const find_square_value = function(result){
+    console.log(result);
+}
+find_square_value("Square value has been found");
+
+
+
+const create_profile_card = function(msg){
+    console.log(msg);
+}
+create_profile_card("Profile card created successfully");
+
+
+
+const update_user_card = function(info){
+    console.log(info);
+}
+update_user_card("User card details updated");
+
+
+
+const read_data_card = function(status){
+    console.log(status);
+}
+read_data_card("Data card has been read successfully");
+
+
+
+const remove_data_card = function(result){
+    console.log(result);
+}
+remove_data_card("Data card deleted successfully");

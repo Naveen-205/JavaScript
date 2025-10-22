@@ -1,0 +1,165 @@
+const join_institute = (msg) => {
+    console.log(msg);
+}
+join_institute("Welcome to SLA Institute");
+
+
+
+const enroll_course = (info) => {
+    console.log(info);
+}
+enroll_course("Enrolled in Fullstack course");
+
+
+
+const maintain_aquarium = (fish) => {
+    console.log(fish);
+}
+maintain_aquarium("Taking care of tropical fish species");
+
+
+
+const play_song = (music) => {
+    console.log(music);
+}
+play_song("Now playing: 'Asal Kolaar'");
+
+
+
+const read_novel = (book) => {
+    console.log(book);
+}
+read_novel("Reading an interesting fiction novel");
+
+
+
+const reserve_ticket = (ticket) => {
+    console.log(ticket);
+}
+reserve_ticket("Two tickets booked for Chennai trip");
+
+
+
+const verify_identity = (identity) => {
+    console.log(identity);
+}
+verify_identity("Identity verification completed successfully");
+
+
+
+const calculate_marks = (mark) => {
+    console.log(mark);
+}
+calculate_marks("Your total marks: 450 out of 500");
+
+
+
+const start_vehicle = (car) => {
+    console.log(car);
+}
+start_vehicle("Vehicle engine started successfully");
+
+
+
+const unlock_door = (door) => {
+    console.log(door);
+}
+unlock_door("Front door has been unlocked");
+
+
+
+const switch_on_light = (light) => {
+    console.log(light);
+}
+switch_on_light("The lights have been turned on");
+
+
+
+const make_coffee = (coffee) => {
+    console.log(coffee);
+}
+make_coffee("Preparing a cup of hot coffee");
+
+
+
+const feed_pet_animal = (feed) => {
+    console.log(feed);
+}
+feed_pet_animal("Feeding the pet with dry food");
+
+
+
+const prepare_dinner = (dinner) => {
+    console.log(dinner);
+}
+prepare_dinner("Cooking a delicious dinner tonight");
+
+
+
+const filter_student_data = (list) => {
+    console.log(list);
+}
+filter_student_data("Filtered list of top-performing students");
+
+
+
+const start_game_session = (games) => {
+    console.log(games);
+}
+start_game_session("Launching 'God of War' gameplay");
+
+
+
+const record_clip = (video) => {
+    console.log(video);
+}
+record_clip("Video recording started successfully");
+
+
+
+const capture_photo = (image) => {
+    console.log("Capturing photo... smile for the camera!");
+}
+capture_photo();
+
+
+
+const verify_otp_code = (otp) => {
+    console.log(otp);
+}
+verify_otp_code("OTP: 3456 verified successfully");
+
+
+
+const send_email_to_team = (mail) => {
+    console.log(mail);
+}
+send_email_to_team("Email has been sent successfully to the Team Lead");
+
+
+
+const type_quickly = (type) => {
+    console.log(type);
+}
+type_quickly("Typing speed test in progress");
+
+
+
+const call_best_friend = (call) => {
+    console.log(call);
+}
+call_best_friend("Calling your best friend...");
+
+
+
+const refill_tank_water = (water) => {
+    console.log(water);
+}
+refill_tank_water("Fish tank water has been changed");
+
+
+
+const switch_tab = (tab) => {
+    console.log(tab);
+}
+switch_tab("Switched to a new browser tab");

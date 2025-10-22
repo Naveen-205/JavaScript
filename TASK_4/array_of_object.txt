@@ -1,0 +1,214 @@
+let laptops = [
+  {brand: "Dell", model: "Inspiron", price: 45000},
+  {brand: "HP", model: "Pavilion", price: 55000},
+  {brand: "Asus", model: "VivoBook", price: 60000}
+]
+console.log(laptops[0].brand)
+console.log(laptops[0].model)
+console.log(laptops[0].price)
+
+console.log(laptops[1].brand)
+console.log(laptops[1].model)
+console.log(laptops[1].price)
+
+console.log(laptops[2].brand)
+console.log(laptops[2].model)
+console.log(laptops[2].price)
+
+
+let cities = [
+  {name: "Paris", country: "France", population: 2140000},
+  {name: "Dubai", country: "UAE", population: 3500000},
+  {name: "Sydney", country: "Australia", population: 5310000}
+]
+console.log(cities[0].name)
+console.log(cities[0].country)
+console.log(cities[0].population)
+
+console.log(cities[1].name)
+console.log(cities[1].country)
+console.log(cities[1].population)
+
+console.log(cities[2].name)
+console.log(cities[2].country)
+console.log(cities[2].population)
+
+
+let colleges = [
+  {name: "Syed Ammal University", city: "Mumbai", rank: 8},
+  {name: "KLU Institute", city: "Pune", rank: 12},
+  {name: "Sastra College", city: "Hyderabad", rank: 5}
+]
+console.log(colleges[0].name)
+console.log(colleges[0].city)
+console.log(colleges[0].rank)
+
+console.log(colleges[1].name)
+console.log(colleges[1].city)
+console.log(colleges[1].rank)
+
+console.log(colleges[2].name)
+console.log(colleges[2].city)
+console.log(colleges[2].rank)
+
+
+let airlines = [
+  {name: "Emirates", origin: "Dubai", rating: 4.8},
+  {name: "Qatar Airways", origin: "Doha", rating: 4.9},
+  {name: "Singapore Airlines", origin: "Singapore", rating: 4.7}
+]
+console.log(airlines[0].name)
+console.log(airlines[0].origin)
+console.log(airlines[0].rating)
+
+console.log(airlines[1].name)
+console.log(airlines[1].origin)
+console.log(airlines[1].rating)
+
+console.log(airlines[2].name)
+console.log(airlines[2].origin)
+console.log(airlines[2].rating)
+
+
+let festivals = [
+  {name: "Diwali", country: "India", month: "November"},
+  {name: "Christmas", country: "USA", month: "December"},
+  {name: "Eid", country: "Saudi Arabia", month: "April"}
+]
+console.log(festivals[0].name)
+console.log(festivals[0].country)
+console.log(festivals[0].month)
+
+console.log(festivals[1].name)
+console.log(festivals[1].country)
+console.log(festivals[1].month)
+
+console.log(festivals[2].name)
+console.log(festivals[2].country)
+console.log(festivals[2].month)
+
+
+let mountains = [
+  {name: "Everest", height: 8848, location: "Nepal"},
+  {name: "K2", height: 8611, location: "Pakistan"},
+  {name: "Kangchenjunga", height: 8586, location: "India/Nepal"}
+]
+console.log(mountains[0].name)
+console.log(mountains[0].height)
+console.log(mountains[0].location)
+
+console.log(mountains[1].name)
+console.log(mountains[1].height)
+console.log(mountains[1].location)
+
+console.log(mountains[2].name)
+console.log(mountains[2].height)
+console.log(mountains[2].location)
+
+
+let brands = [
+  {name: "Nike", category: "Sportswear", founded: 1964},
+  {name: "Adidas", category: "Sportswear", founded: 1949},
+  {name: "Puma", category: "Sportswear", founded: 1948}
+]
+console.log(brands[0].name)
+console.log(brands[0].category)
+console.log(brands[0].founded)
+
+console.log(brands[1].name)
+console.log(brands[1].category)
+console.log(brands[1].founded)
+
+console.log(brands[2].name)
+console.log(brands[2].category)
+console.log(brands[2].founded)
+
+
+let startups = [
+  {name: "Zomato", industry: "Food Delivery", founded: 2008},
+  {name: "Ola", industry: "Transport", founded: 2010},
+  {name: "Paytm", industry: "Fintech", founded: 2010}
+]
+console.log(startups[0].name)
+console.log(startups[0].industry)
+console.log(startups[0].founded)
+
+console.log(startups[1].name)
+console.log(startups[1].industry)
+console.log(startups[1].founded)
+
+console.log(startups[2].name)
+console.log(startups[2].industry)
+console.log(startups[2].founded)
+
+
+let planets = [
+  {name: "Mercury", type: "Rocky", distance_from_sun: 58},
+  {name: "Venus", type: "Rocky", distance_from_sun: 108},
+  {name: "Jupiter", type: "Gas Giant", distance_from_sun: 778}
+]
+console.log(planets[0].name)
+console.log(planets[0].type)
+console.log(planets[0].distance_from_sun)
+
+console.log(planets[1].name)
+console.log(planets[1].type)
+console.log(planets[1].distance_from_sun)
+
+console.log(planets[2].name)
+console.log(planets[2].type)
+console.log(planets[2].distance_from_sun)
+
+
+let courses = [
+  {name: "Web Development", duration: "6 months", level: "Intermediate"},
+  {name: "Data Science", duration: "1 year", level: "Advanced"},
+  {name: "Graphic Design", duration: "3 months", level: "Beginner"}
+]
+console.log(courses[0].name)
+console.log(courses[0].duration)
+console.log(courses[0].level)
+
+console.log(courses[1].name)
+console.log(courses[1].duration)
+console.log(courses[1].level)
+
+console.log(courses[2].name)
+console.log(courses[2].duration)
+console.log(courses[2].level)
+
+
+let employees = [ 
+    {name: "Ravi", department: "IT", salary: 50000}, 
+    {name: "Priya", department: "HR", salary: 45000}, 
+    {name: "Kumar", department: "Finance", salary: 60000} 
+] 
+console.log(employees[0].name) 
+console.log(employees[0].department) 
+console.log(employees[0].salary) 
+
+console.log(employees[1].name) 
+console.log(employees[1].department) 
+console.log(employees[1].salary) 
+
+console.log(employees[2].name) 
+console.log(employees[2].department) 
+console.log(employees[2].salary)
+
+
+let fruits = [ 
+    {name: "Apple", color: "Red", price: 50}, 
+    {name: "Banana", color: "Yellow", price: 20}, 
+    {name: "Mango", color: "Orange", price: 60} 
+] 
+console.log(fruits[0].name) 
+console.log(fruits[0].color) 
+console.log(fruits[0].price) 
+
+console.log(fruits[1].name) 
+console.log(fruits[1].color) 
+console.log(fruits[1].price) 
+
+console.log(fruits[2].name) 
+console.log(fruits[2].color) 
+console.log(fruits[2].price)
