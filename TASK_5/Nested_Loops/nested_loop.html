@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loops</title>
+</head>
+
+<body>
+
+    <h2>Nested Loops</h2>
+
+    <script>
+
+        for (let row = 1; row <= 3; row++) {
+            console.log("Row number:", row);
+
+            for (let seat = 1; seat <= 4; seat++) {
+                console.log("Seat number:", seat, "in Row", row);
+            }
+        }
+
+
+        for (let floor = 1; floor <= 2; floor++) {
+            console.log("Floor:", floor);
+
+            for (let room = 1; room <= 3; room++) {
+                console.log("  Room:", room, "on Floor", floor);
+
+                for (let light = 1; light <= 2; light++) {
+                    console.log("     Light", light, "in Room", room);
+                }
+            }
+        }
+
+
+    </script>
+    
+</body>
+
+</html>
