@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for in & for of object</title>
+</head>
+
+<body>
+
+    <h2>for in & for of object</h2>
+
+    <script>
+
+        /* let obj = ["1", "2"]
+
+        for (let k of obj) {
+            console.log(k);
+
+        } */
+
+        const obj = {
+            gadget: "smartwatch",
+            quantity: "10",
+        }
+
+        for (let key in obj){
+            console.log('key',obj[key]);
+        }
+
+    </script>
+</body>
+
+</html>
