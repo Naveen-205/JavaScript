@@ -1,0 +1,812 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner img{
+    margin: 20px;
+    margin-left: 250px;
+}
+
+#btn1{
+    margin-top: 15px;
+    margin-left: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#btn1:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#products{
+    margin-top: 15px;
+    margin-left: 500px;
+    padding: 10px;
+}
+
+#teaBtn{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#teaBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#coffeeBtn{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#coffeeBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#milkBtn{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#milkBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#biscutBtn{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#biscutBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#juiceBtn{
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#juiceBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#teaItems{
+    margin-top: 15px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+#NTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#NTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#BTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#LTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#LTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#GTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#GTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#CTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#MTbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#MTbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#NTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#NTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#NTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#BTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#BTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#LTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#LTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#LTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#GTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#GTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#GTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#CTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#CTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#MTpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#MTpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#MTget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+
+#coffeeItems{
+    margin-top: 15px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+#NCbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#NCbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#BCbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BCbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#CCbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CCbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#ICbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#ICbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#SCbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#SCbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#FCbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#FCbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#NCpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#NCpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#NCget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#BCpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BCpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#BCget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#CCpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CCpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#CCget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+#ICpay{
+    margin-left: 590px;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#ICpay:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease-in-out;
+}
+
+#ICget{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+
+#milkItems{
+    margin-top: 15px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+#PMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#PMbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#BMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BMbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#CMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CMbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#SMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#SMbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#CHMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#CHMtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#AMbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#AMbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#biscutItems{
+    margin-top: 15px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+#PBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#PBbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#MBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#MBbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#OBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#OBbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#HBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#HBbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#GBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#GBtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#BBbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#BBbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#juiceItems{
+    margin-top: 15px;
+    margin-left: 400px;
+    padding: 10px;
+}
+
+#OJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#OJbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#MJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#MJbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#AJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#AJbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#GJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#GJbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#PJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#PJtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+#WJbtn{
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#WJbtn:hover{
+    background-color: yellowgreen;
+    color: black;
+    transition: 1s ease;
+}
+
+img, h2{
+    margin-top: 20px;
+    margin-left: 500px;
+}
+
+

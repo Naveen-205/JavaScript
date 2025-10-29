@@ -4,26 +4,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+    <title>Atti Cafe</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./assets/images/icon.png" type="image/x-icon">
 </head>
 
 <body>
 
+    <div class="header">
+        <h1>Welcome to Atti Cafe</h1>
+    </div>
 
-    <button id="aBtn">Available Products</button>
+<!-- <div class="banner">
+    <img src="./assets/images/b1.jpg" alt="banner-img">
+</div>
+ -->
+    <button id="btn1">Available Products</button>
 
     <div id="products">
-    <button id="teaBtn">Tea</button>
-    <button id="coffeeBtn">Coffee</button>
-    <button id="boostBtn">Boost</button>
-    <button id="horlicksBtn">Horlicks</button>
+        <button id="teaBtn">Tea</button>
+        <button id="coffeeBtn">Coffee</button>
+        <button id="milkBtn">Milk</button>
+        <button id="biscutBtn">Biscuts</button>
+        <button id="juiceBtn">Juice</button>
     </div>
+
+    <!-- TEA ITEMS -->
 
     <div id="teaItems">
         <button id="NTbtn">Normal Tea</button>
-        <button id="BTbtn">Block Tea</button>
+        <button id="BTbtn">Black Tea</button>
         <button id="LTbtn">Lemon Tea</button>
         <button id="GTbtn">Ginger Tea</button>
         <button id="CTbtn">Chocolate Tea</button>
@@ -31,17 +41,268 @@
     </div>
 
     <div id="normaltea">
-        <h2>Normal Tea</h2>
-        <img id="NTimg" src="./assets/images/T1.jpg" alt="nt-img">
+        <h2 id="NThead">Normal Tea</h2>
+        <img id="NTimg" src="./assets/images/T1.jpg" alt="nt-img" style="width: 250px; height: 200px;"> <br>
+        <button id="NTpay">Pay Now</button>
+        <h3 id="NTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
     </div>
-   
-   
 
-   
+    <div id="blacktea">
+        <h2 id="BThead">Black Tea</h2>
+        <img id="BTimg" src="./assets/images/T2.jpeg" alt="bt-img" style="width: 250px; height: 200px;"> <br>
+        <button id="BTpay">Pay Now</button>
+        <h3 id="BTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+    </div>
+
+    <div id="lemontea">
+        <h2 id="LThead">Lemon Tea</h2>
+        <img id="LTimg" src="./assets/images/T3.webp" alt="lt-img" style="width: 250px; height: 200px;"> <br>
+        <button id="LTpay">Pay Now</button>
+        <h3 id="LTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+    </div>
+
+    <div id="gingertea">
+        <h2 id="GThead">Ginger Tea</h2>
+        <img id="GTimg" src="./assets/images/T4.webp" alt="gt-img" style="width: 250px; height: 200px;"> <br>
+        <button id="GTpay">Pay Now</button>
+        <h3 id="GTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+    </div>
+
+    <div id="chocolatetea">
+        <h2 id="CThead">Chocolate Tea</h2>
+        <img id="CTimg" src="./assets/images/T5.jpg" alt="ct-img" style="width: 250px; height: 200px;"> <br>
+        <button id="CTpay">Pay Now</button>
+        <h3 id="CTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+    </div>
+
+    <div id="masalatea">
+        <h2 id="MThead">Masala Tea</h2>
+        <img id="MTimg" src="./assets/images/T6.jpeg" alt="mt-img" style="width: 250px; height: 200px;"> <br>
+        <button id="MTpay">Pay Now</button>
+        <h3 id="MTget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+    </div>
+
+
+<!-- COFFEE ITEMS -->
+
+<div id="coffeeItems">
+    <button id="NCbtn">Normal Coffee</button>
+    <button id="BCbtn">Black Coffee</button>
+    <button id="CCbtn">Cold Coffee</button>
+    <button id="ICbtn">Instant Coffee</button>
+    <button id="SCbtn">Sugarless Coffee</button>
+    <button id="FCbtn">Filter Coffee</button>
+</div>
+
+<div id="normalcoffee">
+    <h2 id="NChead">Normal Coffee</h2>
+    <img id="NCimg" src="./assets/images/c1.cms" alt="nc-img" style="width: 250px; height: 200px;"> <br>
+    <button id="NCpay">Pay Now</button>
+    <h3 id="NCget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="blackcoffee">
+    <h2 id="BChead">Black Coffee</h2>
+    <img id="BCimg" src="./assets/images/c1.cms" alt="bc-img" style="width: 250px; height: 200px;"> <br>
+    <button id="BCpay">Pay Now</button>
+    <h3 id="BCget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="coldcoffee">
+    <h2 id="CChead">Cold Coffee</h2>
+    <img id="CCimg" src="./assets/images/c1.cms" alt="cc-img" style="width: 250px; height: 200px;"> <br>
+    <button id="CCpay">Pay Now</button>
+    <h3 id="CCget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="instantcoffee">
+    <h2 id="IChead">Instant Coffee</h2>
+    <img id="ICimg" src="./assets/images/c1.cms" alt="ic-img" style="width: 250px; height: 200px;"> <br>
+    <button id="ICpay">Pay Now</button>
+    <h3 id="ICget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="sugarlesscoffee">
+    <h2 id="SChead">Sugarless Coffee</h2>
+    <img id="SCimg" src="./assets/images/c1.cms" alt="sc-img" style="width: 250px; height: 200px;"> <br>
+    <button id="SCpay">Pay Now</button>
+    <h3 id="SCget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="filtercoffee">
+    <h2 id="FChead">Filter Coffee</h2>
+    <img id="FCimg" src="./assets/images/c1.cms" alt="fc-img" style="width: 250px; height: 200px;"> <br>
+    <button id="FCpay">Pay Now</button>
+    <h3 id="FCget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+
+<!-- MILK ITEMS -->
+ <div id="milkItems">
+    <button id="PMbtn">Plain Milk</button>
+    <button id="BMbtn">Boiled Milk</button>
+    <button id="CMbtn">Cold Milk</button>
+    <button id="SMbtn">Strawberry Milk</button>
+    <button id="CHMbtn">Chocolate Milk</button>
+    <button id="AMbtn">Almond Milk</button>
+</div>
+
+<div id="plainmilk">
+    <h2 id="PMhead">Plain Milk</h2>
+    <img id="PMimg" src="./assets/images/m1.png" alt="pm-img" style="width: 250px; height: 200px;"> <br>
+    <button id="PMpay">Pay Now</button>
+    <h3 id="PMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="boiledmilk">
+    <h2 id="BMhead">Boiled Milk</h2>
+    <img id="BMimg" src="./assets/images/m1.png" alt="bm-img" style="width: 250px; height: 200px;"> <br>
+    <button id="BMpay">Pay Now</button>
+    <h3 id="BMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="coldmilk">
+    <h2 id="CMhead">Cold Milk</h2>
+    <img id="CMimg" src="./assets/images/m1.png" alt="cm-img" style="width: 250px; height: 200px;"> <br>
+    <button id="CMpay">Pay Now</button>
+    <h3 id="CMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="strawberrymilk">
+    <h2 id="SMhead">Strawberry Milk</h2>
+    <img id="SMimg" src="./assets/images/m1.png" alt="sm-img" style="width: 250px; height: 200px;"> <br>
+    <button id="SMpay">Pay Now</button>
+    <h3 id="SMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="chocolatemilk">
+    <h2 id="CHMhead">Chocolate Milk</h2>
+    <img id="CHMimg" src="./assets/images/m1.png" alt="chm-img" style="width: 250px; height: 200px;"> <br>
+    <button id="CHMpay">Pay Now</button>
+    <h3 id="CHMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="almondmilk">
+    <h2 id="AMhead">Almond Milk</h2>
+    <img id="AMimg" src="./assets/images/m1.png" alt="am-img" style="width: 250px; height: 200px;"> <br>
+    <button id="AMpay">Pay Now</button>
+    <h3 id="AMget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+
+
+<!-- BISCUIT ITEMS -->
+
+<div id="biscutItems">
+    <button id="PBbtn">Parle-G</button>
+    <button id="MBbtn">Marie Gold</button>
+    <button id="OBbtn">Oreo</button>
+    <button id="HBbtn">Hide & Seek</button>
+    <button id="GBbtn">Good Day</button>
+    <button id="BBbtn">Bourbon</button>
+</div>
+
+<div id="parleg">
+    <h2 id="PBhead">Parle-G</h2>
+    <img id="PBimg" src="./assets/images/p1.jpg" alt="pb-img" style="width: 250px; height: 200px;"> <br>
+    <button id="PBpay">Pay Now</button>
+    <h3 id="PBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="mariegold">
+    <h2 id="MBhead">Marie Gold</h2>
+    <img id="MBimg" src="./assets/images/p1.jpg" alt="mb-img" style="width: 250px; height: 200px;"> <br>
+    <button id="MBpay">Pay Now</button>
+    <h3 id="MBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="oreo">
+    <h2 id="OBhead">Oreo</h2>
+    <img id="OBimg" src="./assets/images/p1.jpg" alt="ob-img" style="width: 250px; height: 200px;"> <br>
+    <button id="OBpay">Pay Now</button>
+    <h3 id="OBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="hideandseek">
+    <h2 id="HBhead">Hide & Seek</h2>
+    <img id="HBimg" src="./assets/images/p1.jpg" alt="hb-img" style="width: 250px; height: 200px;"> <br>
+    <button id="HBpay">Pay Now</button>
+    <h3 id="HBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="goodday">
+    <h2 id="GBhead">Good Day</h2>
+    <img id="GBimg" src="./assets/images/p1.jpg" alt="gb-img" style="width: 250px; height: 200px;"> <br>
+    <button id="GBpay">Pay Now</button>
+    <h3 id="GBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="bourbon">
+    <h2 id="BBhead">Bourbon</h2>
+    <img id="BBimg" src="./assets/images/p1.jpg" alt="bb-img" style="width: 250px; height: 200px;"> <br>
+    <button id="BBpay">Pay Now</button>
+    <h3 id="BBget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+
+<!-- JUICE ITEMS -->
+
+<div id="juiceItems">
+    <button id="OJbtn">Orange Juice</button>
+    <button id="MJbtn">Mango Juice</button>
+    <button id="AJbtn">Apple Juice</button>
+    <button id="GJbtn">Grape Juice</button>
+    <button id="PJbtn">Pineapple Juice</button>
+    <button id="WJbtn">Watermelon Juice</button>
+</div>
+
+<div id="orangejuice">
+    <h2 id="OJhead">Orange Juice</h2>
+    <img id="OJimg" src="./assets/images/j1.jpeg" alt="oj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="OJpay">Pay Now</button>
+    <h3 id="OJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="mangojuice">
+    <h2 id="MJhead">Mango Juice</h2>
+    <img id="MJimg" src="./assets/images/j1.jpeg" alt="mj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="MJpay">Pay Now</button>
+    <h3 id="MJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="applejuice">
+    <h2 id="AJhead">Apple Juice</h2>
+    <img id="AJimg" src="./assets/images/j1.jpeg" alt="aj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="AJpay">Pay Now</button>
+    <h3 id="AJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="grapejuice">
+    <h2 id="GJhead">Grape Juice</h2>
+    <img id="GJimg" src="./assets/images/j1.jpeg" alt="gj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="GJpay">Pay Now</button>
+    <h3 id="GJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="pineapplejuice">
+    <h2 id="PJhead">Pineapple Juice</h2>
+    <img id="PJimg" src="./assets/images/j1.jpeg" alt="pj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="PJpay">Pay Now</button>
+    <h3 id="PJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+<div id="watermelonjuice">
+    <h2 id="WJhead">Watermelon Juice</h2>
+    <img id="WJimg" src="./assets/images/j1.jpeg" alt="wj-img" style="width: 250px; height: 200px;"> <br>
+    <button id="WJpay">Pay Now</button>
+    <h3 id="WJget">Please Wait ! Your Order Will Be Processing ! Thanks for Ordering..</h3>
+</div>
+
+
 
     <script src="script.js"></script>
 
-    
+
 </body>
 
 </html>
