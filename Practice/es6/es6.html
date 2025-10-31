@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Es6</title>
+</head>
+
+<body>
+
+    <h1>ES6 Features</h1>
+
+    <script>
+
+        // // template literals
+        let a = 10;
+        let b = "The process";
+        console.log(`This is the process ${a} Yes the roces this is `);
+
+
+
+        // // ternary operator
+           let sum = 11;
+           sum==10?`Yes this is True bcoz ${sum}`:`No Its not This is ${sum}`;
+           console.log(sum==10?`Yes this is True bcoz ${sum}`:`No Its not This is ${sum}`);
+
+
+        // // default parameter
+           const add = (a="Node")=>{
+              return a
+           }
+           console.log(add());
+
+
+        // optional chaining
+        let users = { profile: { name: "React" , age: "21"} }
+
+        console.log(users?.profile?.age);
+
+        let c = 10;
+
+        console.log(c);
+
+        // nullish coalescing operator
+        let username = null;
+        let dispaly = username ?? "Guest"
+        console.log(dispaly);
+
+        const name = null;
+        const defaultName = "Friend";
+        const userName = name ?? defaultName; 
+        console.log(userName);
+
+        const age = 0;
+        const defaultAge = 18;
+        const userAge = age ?? defaultAge; 
+        console.log(userAge);
+
+        const email = undefined;
+        const defaultEmail = "no_email@example.com";
+        const userEmail = email ?? defaultEmail; 
+        console.log(userEmail);
+
+    </script>
+</body>
+
+</html>
+
+
