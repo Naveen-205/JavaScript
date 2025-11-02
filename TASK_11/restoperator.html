@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Operator</title>
+</head>
+
+<body>
+    <h1>Rest Operator</h1>
+
+    <script>
+
+        const a = (...a) => {
+            const filterdata = a.filter((e) => e % 2 === 0)
+            console.log('even', filterdata)
+        }
+        a(1, 2, 3, 4, 5, 6)
+
+        const b = (...a) => {
+            const finddata = a.find((e) => e % 2 === 1)
+            console.log(finddata)
+        }
+        b(10, 11, 12, 13)
+
+        const c = (...a) => {
+            const reducedata = a.reduce((e) => e % 2 === 0)
+            console.log(reducedata)
+        }
+        c(1, 2, 3, 4, 5)
+
+        const d = (...a) => {
+            const mapdata = a.map((e) => e%2 === 1)
+            console.log(mapdata)
+        }
+        d(5,6,7,8,9)
+
+        const f = (...a) => {
+            const fordata = a.forEach((e) => e%2 === 0)
+            console.log(fordata)
+        }
+        f(12,13,14,15,16)
+
+
+
+
+
+    </script>
+</body>
+
+</html>

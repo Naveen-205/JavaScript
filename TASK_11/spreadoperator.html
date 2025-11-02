@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+
+<body>
+
+    <h1>Spread Operator</h1>
+
+    <script>
+
+        // arrays in spread operator
+        const arr = [1, 2, 3, 4, 5];
+        const newarr = [...arr, 6, 7, 8, 9, 10];
+        // const [...merge] = newarr;
+        console.log(...newarr);
+
+        const num1 = [10, 20, 30, 40];
+        const num2 = [50, 60, 70, 80];
+        const num3 = [...num1, ...num2];
+        // const [...newnum] = num3; 
+        console.log(...num3);
+
+        const name1 = ["Nav"];
+        const name2 = [...name1,"een"];
+        // console.log(name2);
+        // const [...name3] = name2;
+        console.log(...name2);
+         
+
+        const juice = ["Apple", "Orange", "Mango"];
+        const milkshake = ["Oreo", "Strawberry", "Chocolate"];
+        const menu1 = [...juice, ...milkshake];
+        // const [...menu2] = menu1;
+        console.log(...menu1)
+        // console.log(...juice, ...milkshake);
+
+        // doubts--- 
+        const a = ["R","e","a","c","t"];
+        const letters = a;
+        console.log(...letters);
+
+        const c = ["Red", "Yellow", "Green"];
+        const [...colors] = c;
+        console.log(...colors);
+
+        const icecream = ["Vanilla", "Butterscotch", "Strawberry"];
+        const [...types] = icecream;
+        console.log(...types);
+
+        // destructure in spread operator
+        const arr1 = [1, 2, 3, 4, 5];
+        const arr2 = [...arr1];
+        const [first, ...data] = arr1; // doubt
+        console.log(...data);
+
+        const name = ["Naveen"];
+        // const name2 = ["B.B"];
+        const [datas] = name; // doubt
+        console.log(datas);
+
+        // objects in spread operator
+        const new1 = { course: "Mern" };
+        const new2 = { duration: "Three Months" };
+        const new3 = { ...new1, ...new2 };
+        console.log(new3);
+
+        const bakes = { biscuit: "milkbikies", items: { item1: "normal", item2: "cream" } };
+        const cakes = { bun: "allcakes", varieties: { v1: "normalbun", v2: "icebun" } };
+        console.log({ ...bakes, ...cakes });
+
+
+    </script>
+</body>
+
+</html>

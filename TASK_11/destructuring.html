@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructuring</title>
+</head>
+
+<body>
+    <h1>Destructuring In Arrays and Objects</h1>
+
+    <script>
+
+        // Destructuring with Arrays
+
+        const bikes = ["Pulsar", "MT15", "Shine-SP", "Duke250"];
+        const [bajaj, yamaha, honda, ktm] = bikes;
+        console.log(ktm);
+
+        const laptop = ["Acer", "Lenovo", "HP", "Dell"];
+        const [A, L, H, D] = laptop;
+        console.log(A);
+
+        const mobiles = ["RedmiNote10", "Samsung-S25", "Iphone17"];
+        const [mi, samsung, apple] = mobiles;
+        console.log(samsung);
+
+        const courses = ["Mern Stack", "Data Science", "Software Testing"];
+        const [fullstack, python, java] = courses;
+        console.log(fullstack);
+
+        const airpods = ["Boat", "Nothing", "Boult", "Oneplus"];
+        const [brand1, brand2, brand3, brand4] = airpods;
+        console.log(brand4);
+
+        const shops = ["Super Stores", "DMart", "GRT", "Poorvika"];
+        const [dress, grocery, jewels, appliances] = shops;
+        console.log(grocery);
+
+        const icecreams = ["Vanilla", "Kulfi", "Chocobar"];
+        const [arun, milkymist, dairyday] = icecreams;
+        console.log(milkymist);
+
+        const tv = [24, 32, 48, 64, 108];
+        const [tcl, videocoon, xiomi, thosiba, lg] = tv;
+        console.log(lg);
+
+        const washingmachine = [12000, 24000, 32000, 64000];
+        const [SAM, LG, MI, Haier] = washingmachine;
+        console.log(Haier);
+
+        const fan = ["Crompton", "Havells", "Hi-Fi"];
+        const [f1, f2, f3] = fan;
+        console.log(f3);
+
+        // Destructuring with Objects
+
+        let course = { name: "JavaFullStack", fees: "45000", duration: "Five Months" };
+        let { name, fees, duration } = course;
+        console.log(name);
+
+        const object = { brand: "LG", rate: 36000 };
+        const { brand, rate } = object;
+        console.log(brand);
+
+        const fans = { fans1: "Racer Ajith", fans2: "TVK" };
+        const { fans1, fans2 } = fans;
+        console.log(fans1);
+
+        const note = { book: "ClassMate", rs: "120", quality: "Number One" };
+        const { book, rs, quality } = note;
+        console.log(book);
+
+        // const obj = {a1:"ab",a2:"cd",a3:"ef",a4:"gh",a5:"ij",a6:"kl",a7:"mn",a8:"op",a9:"qr",a10:"st"};
+        // const {a1,a2,a3,a4,a5,a7,a8,a9,a10} = obj;
+        // obj.innerHTML = a1;
+
+    </script>
+</body>
+
+</html>
