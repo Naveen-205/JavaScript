@@ -6,7 +6,41 @@
     <title>Form Validation</title>
 </head>
 <body>
+
+    <center>
     <h1>Form Validation Using DOM</h1>
+
+    <form id="Validationform">
+
+    <label>Enter Your Name:</label> <br>
+    <input type="text" id="namedata" placeholder="Must Be Capital"> <br> <br> 
+
+    <label>Enter Your Mail Id:</label> <br>
+    <input type="email" id="emaildata" placeholder="example@gmail.com"> <br> <br> 
+
+    <label>Password:</label> <br>
+    <input type="password" id="passdata" placeholder="must be charater & numbers"> <br> <br> 
+    
+    <label>Age:</label> <br><br>
+    <input type="number" id="agedata" placeholder="must be above 18"> <br><br>
+
+    <label>Mobile Number:</label> <br> 
+    <input type="text" id="mobiledata" placeholder="Must Be 10 Numbers"> <br><br>
+
+    <label>Enter the Address:</label> <br>
+    <textarea id="addressdata" placeholder="Enter Your Address"></textarea> <br><br>
+ 
+    <label>Gender:</label> <br>
+    <select id="genderdata">
+        <option value selected disabled>Choose Your Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select> <br><br><br>
+
+    <button type="submit" id="btn">Register</button>
+
+    </form>
+    </center>
     
 </body>
 </html>
