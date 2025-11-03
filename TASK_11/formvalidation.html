@@ -1,46 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation</title>
 </head>
+
 <body>
 
     <center>
-    <h1>Form Validation Using DOM</h1>
+        <h1>Form Validation Using DOM</h1>
 
-    <form id="Validationform">
+        <form id="myform">
 
-    <label>Enter Your Name:</label> <br>
-    <input type="text" id="namedata" placeholder="Must Be Capital"> <br> <br> 
+            <label>Enter Your Name:</label> <br>
+            <input type="text" id="namedata" placeholder="Your Name"> <br><br>
 
-    <label>Enter Your Mail Id:</label> <br>
-    <input type="email" id="emaildata" placeholder="example@gmail.com"> <br> <br> 
+            <label>Enter Your Mail Id:</label> <br>
+            <input type="email" id="emaildata" placeholder="example@gmail.com"> <br><br>
 
-    <label>Password:</label> <br>
-    <input type="password" id="passdata" placeholder="must be charater & numbers"> <br> <br> 
-    
-    <label>Age:</label> <br><br>
-    <input type="number" id="agedata" placeholder="must be above 18"> <br><br>
+            <label>Password:</label> <br>
+            <input type="password" id="passdata" placeholder="must be characters & numbers"> <br><br>
 
-    <label>Mobile Number:</label> <br> 
-    <input type="text" id="mobiledata" placeholder="Must Be 10 Numbers"> <br><br>
+            <label>Age:</label> <br>
+            <input type="number" id="agedata" placeholder="must be above 18"> <br><br>
 
-    <label>Enter the Address:</label> <br>
-    <textarea id="addressdata" placeholder="Enter Your Address"></textarea> <br><br>
- 
-    <label>Gender:</label> <br>
-    <select id="genderdata">
-        <option value selected disabled>Choose Your Gender</option>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select> <br><br><br>
+            <label>Mobile Number:</label> <br>
+            <input type="text" id="mobiledata" placeholder="Must be 10 digits"> <br><br>
 
-    <button type="submit" id="btn">Register</button>
+            <label>Enter the Address:</label> <br>
+            <textarea id="addressdata" placeholder="Enter Your Address"></textarea> <br><br>
 
-    </form>
+            <label>Gender:</label> <br>
+            <input type="radio" name="gender" value="male" id="maledata"> Male
+            <input type="radio" name="gender" value="female" id="femaledata"> Female <br><br>
+
+            <input type="submit" value="Register">
+            <p id="myresult"></p>
+
+        </form>
     </center>
-    
+
+    <script>
+        const form = document.getElementById("myform");
+        const result = document.getElementById("myresult");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault(); 
+
+            const name = document.getElementById("namedata").value.trim();
+            const email = document.getElementById("emaildata").value.trim();
+            const password = document.getElementById("passdata").value.trim();
+            const age = document.getElementById("agedata").value.trim();
+            const mobile = document.getElementById("mobiledata").value.trim();
+            const address = document.getElementById("addressdata").value.trim();
+            const male = document.getElementById("maledata").checked;
+            const female = document.getElementById("femaledata").checked;
+
+
+            if (name === "") {
+                result.innerText = "Please Enter Your Name";
+                result.style.color = "red";
+                return;
+            }
+
+            else if (email === "") {
+                result.innerText = "Please Enter Your Email";
+                result.style.color = "red";
+                return;
+            }
+            // // Basic Email Validation
+            // else if (!/^[^ ]+@[^ ]+\.[a-z]{2,3}$/.test(email)) {
+            //     result.innerText = "Please Enter a Valid Email (e.g., example@gmail.com)";
+            //     result.style.color = "red";
+            //     return;
+            // }
+
+            else if (password === "") {
+                result.innerText = "Please Enter Your Password";
+                result.style.color = "red";
+                return;
+            }
+            // // Password must include letters, numbers, and be at least 6 characters
+            // else if (!/^(?=.*[a-zA-Z])(?=.*\d).{6,}$/.test(password)) {
+            //     result.innerText = "Password must contain letters and numbers (min 6 characters)";
+            //     result.style.color = "red";
+            //     return;
+            // }
+
+            else if (age === "") {
+                result.innerText = "Please Enter Your Age";
+                result.style.color = "red";
+                return;
+            }
+            // else if (isNaN(age) || age < 18) {
+            //     result.innerText = "Age must be 18 or above";
+            //     result.style.color = "red";
+            //     return;
+            // }
+
+            else if (mobile === "") {
+                result.innerText = "Please Enter Your Mobile Number";
+                result.style.color = "red";
+                return;
+            }
+            // Mobile must be exactly 10 digits
+            // else if (!/^\d{10}$/.test(mobile)) {
+            //     result.innerText = "Mobile Number must be exactly 10 digits";
+            //     result.style.color = "red";
+            //     return;
+            // }
+
+            else if (address === "") {
+                result.innerText = "Please Enter Your Address";
+                result.style.color = "red";
+                return;
+            }
+
+            else if (!male && !female) {
+                result.innerText = "Please Select Your Gender";
+                result.style.color = "red";
+                return;
+            }
+
+            else {
+                result.innerText = "Successfully Registered!";
+                result.style.color = "green";
+                alert("Successfully Registered!");
+                form.reset();
+            }
+
+        });
+    </script>
+
 </body>
+
 </html>
