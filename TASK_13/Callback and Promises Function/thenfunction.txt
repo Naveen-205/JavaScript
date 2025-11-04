@@ -1,0 +1,27 @@
+//calling the functionname().then((//parameter) => {
+    console.log(//parameter);
+    console.log("print the statement")
+})      
+     .then() is a function to run one after another. run when the promises is fullfilled or resolved.
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})
+
+.then(()=>{})

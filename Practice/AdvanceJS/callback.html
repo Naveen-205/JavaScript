@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Callback Functions</title>
+</head>
+
+<body>
+  <h2>Callback Functions</h2>
+
+  <script>
+
+    // // callback function
+    // const makeTea = (customerName, process) => {
+    //   console.log(`Order received for ${customerName}`);
+
+    //   setTimeout(() => {
+    //     console.log("Tea is ready");
+    //     process();
+    //   }, 3000)
+    // }
+
+    // const serveTea = () => {
+    //   console.log(`Serving Tea`);
+    // }
+
+    // makeTea("Priya", serveTea)
+
+
+
+    // promise method  // syntax - Promise((r,r)=>{})
+    // const juice = () => {
+    //   return new Promise((resolve, reject) => {
+    //     console.log('Making Juice');
+
+    //     setTimeout(() => {
+
+    //       let juiceready = false;
+
+    //       if (juiceready) {
+    //         resolve("Juice is ready")
+    //       } else {
+    //         reject('Milk not available to make a juice')
+    //       }
+    //     }, 2000)
+    //   })
+    // }
+    // juice().then((sms)=>{
+    //   console.log(sms);
+    //   console.log('Serve a Juice');
+    // }).catch((wrong)=>{
+    //   console.log(wrong,'Wrong');
+    // })
+
+
+
+    // // promise method using then and catch
+    // const customer = () => {
+    //   return new Promise((resolve, reject) => {
+    //     setTimeout(() => {
+    //       console.log('Tea served to customer');
+    //       resolve("Customer Happy");
+    //       // reject("Customer Sad");
+    //     }, 1000)
+    //   })
+    // }
+    // customer().then((message) => {
+    //   console.log(message);
+    //   console.log("Serving tea");
+    // }).catch((error) => {
+    //   console.log(error);
+    //   // console.log("Error"); 
+    // });
+
+
+    // Step 1: Function to make tea (returns a Promise)
+    function makeTea() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          console.log("Tea is ready ☕");
+          resolve("Tea done");
+        }, 2000);
+      });
+    }
+
+    // Step 2: Function to serve tea
+    function serveTea() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          console.log("Tea served to customer 🍵");
+          resolve("Tea served successfully");
+        }, 1500);
+      });
+    }
+
+    // Step 3: Function when customer becomes happy
+    function customerHappy() {
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          console.log("Customer is happy 😄");
+          resolve("Customer satisfied");
+        }, 1000);
+      });
+    }
+
+    // Step 4: Promise chaining
+    makeTea()
+      .then((msg) => {
+        console.log("Step 1 Done:", msg);
+        return serveTea(); // returns next promise
+      })
+      .then((msg2) => {
+        console.log("Step 2 Done:", msg2);
+        return customerHappy(); // returns next promise
+      })
+      .then((msg3) => {
+        console.log("Step 3 Done:", msg3);
+        console.log("All process done ✅");
+      })
+      .catch((err) => {
+        console.log("Error:", err);
+      });
+
+
+  </script>
+</body>
+
+</html>
