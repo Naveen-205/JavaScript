@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+<body>
+    
+<h2>Quotes</h2>
+<div id="quote">
+
+</div>
+
+<script>
+    const getdata = async()=>{
+
+    try{
+
+        console.log('Fetching Datas');
+
+        const res = await fetch("https://dummyjson.com/quotes?limit=10")
+        console.log(res);
+        
+        const data = await res.json()
+        //console.log(data.products);
+        const datas = data.quotes;
+        const container = document.getElementById("quote")
+        
+        datas.forEach(items => {
+
+            const box = document.createElement("div")
+      //console.log(items.images);
+      
+            box.innerHTML = `<h2>${items.quote} . ${items.author}</h2>`
+            container.appendChild(box)
+        });
+    }catch(err){
+
+        console.error('Something error',err);
+        
+
+    }finally{
+        console.log('Process Completed');
+        
+    }
+
+} 
+
+
+getdata()
+
+</script>
+
+</body>
+</html>
