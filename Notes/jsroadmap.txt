@@ -1,0 +1,137 @@
+JavaScript Interview Roadmap
+
+This roadmap is structured to take you from the fundamental building blocks of the language to the more complex, real-world applications.
+
+#### Level 1: JavaScript Fundamentals (The Core Language)
+
+This is the absolute foundation. You must know this section perfectly.
+
+1.  *Variables & Scope*
+    *   Declaration (var name;), Initialization (name = "John";), and Assignment.
+    *   **var, let, and const*: This is a critical interview question. Understand their differences in terms of **scope* (Global, Function, Block), *hoisting, **re-declaration, and **re-assignment*.
+    *   *Hoisting*: Understand how JavaScript handles declarations for variables (var, let, const) and functions before execution.
+    *   *Scope & Lexical Scoping*: Understand what scope is, how it works, and how nested functions have access to variables in their parent scopes (Lexical Environment).
+
+2.  *Data Types*
+    *   *Primitive Types*: String, Number, Boolean, null, undefined, Symbol, BigInt. Know the difference between null and undefined.
+    *   *Non-Primitive (Reference) Types*: Object, Array, Function. Understand that these are stored as references, not values.
+
+3.  *Operators*
+    *   *Arithmetic*: +, -, *, /, %, ++, --
+    *   *Assignment*: =, +=, -=
+    *   *Comparison*: == vs. === (very important!), != vs. !==, >, <, >=, <=
+    *   *Logical*: && (AND), || (OR), ! (NOT)
+    *   *Ternary Operator*: condition ? exprIfTrue : exprIfFalse
+
+4.  *Control Flow*
+    *   *Conditionals*: if, else if, else, switch
+    *   *Loops*: for, while, do...while, and the iterators for...in (for objects) and for...of (for arrays/iterables).
+
+#### Level 2: Data Structures & Functions
+
+These are the tools you'll use every day to manage data and logic.
+
+1.  *Functions*
+    *   *Function Declaration*: function myFunction() {}
+    *   *Function Expression*: const myFunction = function() {};
+    *   *Arrow Functions (ES6)*: const myFunction = () => {};. Understand how this behaves differently in arrow functions.
+    *   Parameters and Arguments.
+
+2.  *Objects*
+    *   Creating objects (literal syntax, constructor).
+    *   Accessing properties (dot notation vs. bracket notation).
+    *   Adding, modifying, and deleting properties.
+    *   *Object Methods*: Understanding Object.keys(), Object.values(), Object.entries().
+
+3.  *Arrays*
+    *   Creating arrays and accessing elements by index.
+    *   Basic methods: push(), pop(), shift(), unshift(), slice(), splice().
+    *   *Higher-Order Array Methods (Must Know!)*:
+        *   forEach(): To loop over elements.
+        *   map(): To create a new array by transforming each element.
+        *   filter(): To create a new array with elements that pass a test.
+        *   reduce(): To execute a reducer function and get a single output value.
+        *   find(): To get the first element that passes a test.
+        *   some() / every(): To check if some or all elements pass a test.
+
+#### Level 3: Modern JavaScript (ES6+ Features)
+
+These features make JavaScript more powerful and easier to write.
+
+1.  *Destructuring*
+    *   *Object Destructuring*: const { name, age } = user;
+    *   *Array Destructuring*: const [first, second] = myArray;
+
+2.  **Spread and Rest Operators (...)**
+    *   *Spread Operator*: Used to expand iterables (e.g., merging arrays [...arr1, ...arr2], copying objects {...obj}).
+    *   *Rest Operator*: Used to collect the "rest" of the elements into an array (e.g., in function parameters function(...args)).
+
+3.  *Template Literals*
+    *   Using back-ticks (`` ` ``) for multi-line strings and embedded expressions: `` Hello, ${name}! ``.
+
+#### Level 4: How JavaScript Really Works (The "Tricky" Concepts)
+
+These topics separate junior developers from mid-level developers.
+
+1.  **The this Keyword (Crucial Topic)**
+    *   Understand how the value of this is determined in different contexts: Global context, as an object method, in a simple function, in an event listener, and in an arrow function.
+
+2.  *Closures*
+    *   A function that remembers its outer lexical environment, even after the outer function has returned. This is a very common and important interview question.
+
+3.  *Callbacks*
+    *   A function passed as an argument to another function, which is then invoked inside the outer function. This is the foundation for asynchronous programming.
+
+#### Level 5: Asynchronous JavaScript
+
+Modern web development is almost entirely asynchronous.
+
+1.  *Synchronous vs. Asynchronous Code*
+    *   Understand the difference and why async is necessary.
+
+2.  *The Event Loop (Important Concept You Missed)*
+    *   Have a basic understanding of the Call Stack, Callback Queue (or Task Queue), and how the Event Loop allows JavaScript to be non-blocking.
+
+3.  *Promises*
+    *   The modern way to handle async operations. Understand the states: pending, fulfilled, rejected.
+    *   Methods: .then() for success, .catch() for errors, and .finally() for cleanup.
+    *   Promise methods: Promise.all(), Promise.race().
+
+4.  **async/await**
+    *   Syntactic sugar on top of Promises that makes async code look and feel synchronous.
+    *   Using async to declare a function and await to pause execution until a Promise settles.
+    *   Error handling with try...catch.
+
+5.  **APIs & fetch**
+    *   Understanding what a web API is.
+    *   Using the fetch() API to make network requests (e.g., GET, POST) to a server. This is a practical application of Promises.
+
+#### Level 6: JavaScript in the Browser (The DOM)
+
+This is how you make web pages interactive.
+
+1.  *The DOM (Document Object Model)*
+    *   What it is and how it represents an HTML document as a tree of objects.
+
+2.  *Selecting & Manipulating Elements*
+    *   *Selecting*: document.getElementById(), document.querySelector(), document.querySelectorAll().
+    *   *Manipulating*: Changing properties like .innerHTML, .textContent, .style, and attributes like .setAttribute().
+    *   Creating and removing elements: document.createElement(), .appendChild(), .removeChild().
+
+3.  *Events*
+    *   Handling user interactions like clicks, mouse movements, and keyboard inputs.
+    *   *Event Listeners*: Using element.addEventListener('click', function) to run code when an event happens.
+    *   The event object.
+
+4.  *Form Handling*
+    *   A practical use case for DOM manipulation and events.
+    *   Getting values from input fields.
+    *   Handling the submit event and using event.preventDefault().
+
+#### Level 7: Browser Storage
+
+How to save data on the user's computer.
+
+1.  **localStorage**: Persistent storage that stays even after the browser is closed.
+2.  **sessionStorage**: Storage that is cleared when the browser tab is closed.
+3.  *Cookies*: Small strings of data sent between the browser and server. Understand the basic use case (e.g., session management).

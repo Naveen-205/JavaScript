@@ -1,0 +1,68 @@
+What is JavaScript (JS)?
+ JavaScript (JS) is a scripting language used to make web pages interactive and dynamic.
+ It runs inside the browser and allows you to control how web pages behave after loading.
+
+ Why We Use JS
+ We use JavaScript to add interactivity to web pages, update web page content without
+ reloading, validate form inputs, create animations, build web apps, and communicate with
+ servers using APIs. In short: HTML provides structure, CSS provides style, and
+ JavaScript provides behavior.
+
+ When We Use JS
+ We use JavaScript when we need to respond to user actions (click, hover, input), change
+ content dynamically, fetch or send data from a backend without reloading, or create
+ single-page applications like Gmail or YouTube.
+
+ Where We Use JS
+ JavaScript can be used on the client side (inside the browser) and on the server side using
+ Node.js. For example, in the frontend, it makes buttons interactive, and in the backend, it
+ handles logic and database connections.
+
+ Ways (Types) of Using JavaScript
+ 1. Inline JS: Click me
+ 2. Internal JS: document.write('Welcome!');
+ 3. External JS: (Recommended method for clean code).
+
+ What Happens When We Use JS on a Webpage
+ When you add JS, the browser executes the script after reading HTML and CSS. JS can
+ manipulate HTML elements (DOM), change styles, content, and respond to events like
+ mouse clicks. It can also interact with web APIs to load data dynamically.
+
+Other Frontend Programming Languages / Technologies
+HTML – Defines the content and layout.
+ CSS – Styles the webpage (colors, fonts, layout).
+ JavaScript – Adds interactivity and logic.
+ Frameworks – React, Angular, Vue.js for advanced web apps.
+ Styling frameworks – Bootstrap, Tailwind CSS for responsive layouts.
+ TypeScript – Superset of JavaScript with type checking.
+
+ What is TypeScript?
+ TypeScript is a superset of JavaScript created by Microsoft. It means every JavaScript
+ code is valid TypeScript code, but TypeScript adds extra features like type safety.
+
+ Difference Between JavaScript and TypeScript
+ JavaScript is dynamic and doesn’t have type checking. TypeScript is static and checks
+ types before running. TypeScript helps catch errors early and supports advanced
+ object-oriented programming features like classes, interfaces, and generics.
+
+ Example
+ JavaScript:
+ let num = 10;
+ num = 'Hello'; // no error
+
+ TypeScript:
+ let num: number = 10;
+ num = 'Hello'; // Error: Type 'string' is not assignable to type 'number'.
+
+ Why Developers Use TypeScript
+ To avoid runtime errors with type checking, make code easier to maintain, use modern JS
+ features safely, and get better IDE support with auto-completion.
+
+ How TypeScript Works
+ 1. You write code in a .ts file (example.ts)
+ 2. TypeScript compiles it to plain JavaScript (example.js)
+ 3. The browser runs the JavaScript file.
+ 
+In Short
+ TypeScript = JavaScript + Type Checking + Modern Features. It is a language, not a
+ framework or library. Frameworks like Angular are built using TypeScript.
